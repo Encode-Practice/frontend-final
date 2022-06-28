@@ -49,23 +49,23 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Monster Free Next Js Dashboard Template</title>
+        <title>Dynamic NFT's</title>
         <meta
           name="description"
-          content="Monster Free Next Js Dashboard Template"
+          content="Dynamic Nft's"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
         {/***Sales & Feed***/}
-        <Row>
+        {/* <Row>
           <Col sm="12" lg="6" xl="7" xxl="8">
             <SalesChart />
           </Col>
           <Col sm="12" lg="6" xl="5" xxl="4">
             <Feeds />
           </Col>
-        </Row>
+        </Row> */}
         {/***Table ***/}
         <Row>
           <Col lg="12" sm="12">

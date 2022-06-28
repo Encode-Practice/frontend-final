@@ -15,7 +15,7 @@ import {
   Button,
 } from "reactstrap";
 import LogoWhite from "../../assets/images/logos/monsterlogowhite.svg";
-import user1 from "../../assets/images/users/user1.jpg";
+import user4 from "../../assets/images/users/user4.jpg";
 
 const Header = ({ showMobmenu }) => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -52,7 +52,7 @@ const Header = ({ showMobmenu }) => {
       </div>
 
       <Collapse navbar isOpen={isOpen}>
-        <Nav className="me-auto" navbar>
+        {/* <Nav className="me-auto" navbar>
           <NavItem>
             <Link href="/">
               <a className="nav-link">Starter</a>
@@ -74,12 +74,12 @@ const Header = ({ showMobmenu }) => {
               <DropdownItem>Reset</DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
-        </Nav>
+        </Nav> */}
         <Dropdown isOpen={dropdownOpen} toggle={toggle}>
           <DropdownToggle color="primary">
             <div style={{ lineHeight: "0px" }}>
               <Image
-                src={user1}
+                src={user4}
                 alt="profile"
                 className="rounded-circle"
                 width="30"
@@ -91,10 +91,10 @@ const Header = ({ showMobmenu }) => {
             <DropdownItem header>Info</DropdownItem>
             <DropdownItem>My Account</DropdownItem>
             <DropdownItem>Edit Profile</DropdownItem>
-            <DropdownItem divider />
+            {/* <DropdownItem divider />
             <DropdownItem>My Balance</DropdownItem>
             <DropdownItem>Inbox</DropdownItem>
-            <DropdownItem>Logout</DropdownItem>
+            <DropdownItem>Logout</DropdownItem> */}
           </DropdownMenu>
         </Dropdown>
       </Collapse>

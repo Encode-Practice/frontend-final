@@ -6,10 +6,10 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Monster Free Next Js Dashboard Template</title>
+        <title>Dynamic Nft</title>
         <meta
           name="description"
-          content="Monster Free Next Js Dashboard Template"
+          content="Dynamic Nft's with chainlink"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
