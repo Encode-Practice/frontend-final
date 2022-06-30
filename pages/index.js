@@ -73,7 +73,7 @@ export default function Home() {
           </Col>
         </Row>
         {/***Blog Cards***/}
-        <Row>
+        {/* <Row>
           {BlogData.map((blg) => (
             <Col sm="6" lg="6" xl="3" key={blg.title}>
               <Blog
@@ -85,7 +85,7 @@ export default function Home() {
               />
             </Col>
           ))}
-        </Row>
+        </Row> */}
       </div>
     </div>
   );

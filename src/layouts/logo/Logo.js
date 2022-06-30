@@ -5,7 +5,7 @@ import Link from "next/link";
 const Logo = () => {
   return (
     <Link href="/">
-      <h2>D-NFT's</h2>
+      <h2>Dynamic NFT's</h2>
     </Link>
   );
 };

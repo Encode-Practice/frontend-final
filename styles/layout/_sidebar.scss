@@ -2,8 +2,10 @@
   flex-shrink: 0;
   width: $sidebarWidth;
   background-color: $sidebarColor;
+  color: white;
   .sidenav-bg:hover {
     background-color: $gray-100;
+    color: black;
     border-radius: $border-radius;
   }
 }

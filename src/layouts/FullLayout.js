@@ -11,10 +11,10 @@ const FullLayout = ({ children }) => {
 
   return (
     <main>
-      <div className="pageWrapper d-md-block d-lg-flex">
+      <div className="pageWrapper d-md-block  d-lg-flex">
         {/******** Sidebar **********/}
         <aside
-          className={`sidebarArea shadow bg-white ${
+          className={`sidebarArea shadow bg-dark ${
             !open ? "" : "showSidebar"
           }`}
         >

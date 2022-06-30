@@ -5,30 +5,13 @@ import user4 from "../../assets/images/users/user4.jpg";
 
 
 const tableData = [
-  {
-    avatar: user2,
-    name: "Will Bowles",
-    github: "https://github.com/vvillbiii",
-    project: "Encode Club",
-    status: "done",
-    // weeks: "35",
-    // budget: "95K",
-  },
+  
   {
     avatar: user4,
     name: "Jack Liu",
     github: "https://github.com/bayesdj",
     project: "Encode Club",
     status: "done",
-    // weeks: "35",
-    // budget: "95K",
-  },
-  {
-    avatar: user2,
-    name: "Gabe",
-    github: "https://github.com/gohyun14",
-    project: "Encode Club",
-    // status: "holt",
     // weeks: "35",
     // budget: "95K",
   },
@@ -41,6 +24,26 @@ const tableData = [
     // weeks: "35",
     // budget: "95K",
   },
+ 
+  {
+    avatar: user2,
+    name: "Will Bowles",
+    github: "https://github.com/vvillbiii",
+    project: "Encode Club",
+    status: "done",
+    // weeks: "35",
+    // budget: "95K",
+  },
+  
+  {
+    avatar: user2,
+    name: "Gabe",
+    github: "https://github.com/gohyun14",
+    project: "Encode Club",
+    // status: "holt",
+    // weeks: "35",
+    // budget: "95K",
+  },
   
 ];
 
@@ -50,7 +53,8 @@ const ProjectTables = () => {
       <CardBody>
         <CardTitle tag="h5">Project </CardTitle>
         <CardSubtitle className="mb-2 text-muted" tag="h6">
-          Overview of the project
+          Overview of the project. This project was deployed on polygon mumbai testnet.
+          It interacts with chainlink for randomness, price feeds and Dynamic NFT's
         </CardSubtitle>
         <div className="table-responsive">
           <Table className="text-nowrap mt-3 align-middle" borderless>

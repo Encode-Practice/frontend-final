@@ -1,1 +1,12 @@
-module.exports = {};
+module.exports = {
+    "compilerOptions": {
+        "resolveJsonModule": true,
+      },
+      env: {
+        DNFT_CONTRACT_ADDRESS: '0xD0171a5856Bd5eE68AE58Fd3270CAD4F47B262C2',
+        NETWORK:"polygon mumbai testnet",
+        PRIVATE_KEY:"0x70f810608dcb539e83257f3099741148794b10753d5203818450234a0525bc70",
+        RPC: "https://polygon-mumbai.g.alchemy.com/v2/AYx-GxLNZR0rRe2SZBKyyb866dWPSGfS"
+      },
+};
+
